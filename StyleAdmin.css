@@ -1,0 +1,208 @@
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.my-panthnavbar {
+    background-color: blueviolet;
+    padding: 10px 20px;
+}
+
+.my-panthnavbar .navbar-brand img {
+    width: 200px;
+    height: auto;
+}
+
+.Misubtitulo {
+    font-family: "Oleo Script", system-ui;
+    font-size: 50px;
+    color: rgb(186, 127, 241);
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.search-add-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+.mi-boton2 {
+    padding: 10px 20px;
+    background-color: black;
+    color: azure;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.mi-boton2:hover {
+    background: blueviolet;
+}
+
+.mi-boton2:active {
+    background: black;
+    color: blueviolet;
+}
+
+
+.myInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    max-width: 100%;
+}
+
+
+.textAreaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.myTextArea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.saveButton {
+    padding: 10px 20px;
+    background-color: black;
+    color: azure;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.saveButton:hover {
+    background: blueviolet;
+}
+
+.saveButton:active {
+    background: black;
+    color: blueviolet;
+}
+
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.product-card {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    font-family: "Caveat", cursive;
+}
+
+.product-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.product-card:hover img {
+    transform: scale(1.1);
+}
+
+
+.product-card h3 {
+    font-size: 1.5em;
+    color: blueviolet;
+    margin: 15px 0 10px;
+    font-family: "Permanent Marker", cursive;
+}
+
+.product-card p {
+    font-size: 1em;
+    color: #333;
+    padding: 0 15px;
+    margin: 10px 0;
+}
+
+
+.product-card p.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000;
+    margin: 15px 0;
+}
+
+
+.product-card button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: azure;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+    background-color: blueviolet;
+}
+
+.product-card button:active {
+    background-color: black;
+    color: blueviolet;
+}
+
+
+@media (max-width: 768px) {
+    .search-add-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .textAreaContainer {
+        max-width: 100%;
+    }
+}

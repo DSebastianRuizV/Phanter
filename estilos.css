@@ -1,0 +1,184 @@
+*::after,
+*::before,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+.my-panthnavbar{
+    background-color: blueviolet;
+}
+
+.mi-boton{
+    padding: 10px 20px;
+    background-color: black;
+    color: azure;
+    border-radius: 20%   
+}
+
+.mi-boton2{
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    max-width: fit-content;
+    background-color: black;
+    color: azure;
+    border-radius: 20%       
+}
+
+.mi-boton2:hover{
+    background: blueviolet;
+}
+
+.mi-boton2:active{
+    background: black;
+    color: blueviolet;
+}
+
+.Mititulo{
+    font-family:"Permanent Marker", cursive;
+    font-size: 100px;
+    color: blueviolet;
+}
+
+.Misubtitulo{
+    font-family: "Oleo Script", system-ui;
+    font-size: 50px;
+    color: rgb(186, 127, 241);
+}
+
+.Mitexto{
+    font-family:"Caveat", cursive;
+    font-size: 30px;
+    color: rgb(0, 119, 255);
+}
+
+.container-items{
+    display: grid;
+    gap: 20px;
+}
+
+.item{
+    border-radius: 10px;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.info_producto{
+    padding: 15px 30px;
+}
+
+.item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .8s;
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+
+.info_producto{
+    padding: 15px 30px;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Precio{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info_producto button{
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.formulario-pqrs {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.boton {
+    text-align: center;
+}
+
+.mi-boton2-form{
+    display: block;
+    margin: auto;
+    padding: 10px 20px;   
+    background-color: black;
+    color: azure;
+    border-radius: 20%;
+    align-items: center;   
+    text-align: center;
+}
+
+.mi-boton2-form:hover {
+    background-color: blueviolet;
+}
+
+.Mi-inicio{
+    font-family:"Caveat", cursive;
+    font-size: 50px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.abajo_foot{
+    display: block;
+    margin: auto;
+}
+
+.redes{
+    display: block;
+    margin: auto;
+}

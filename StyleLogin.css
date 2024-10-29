@@ -1,0 +1,110 @@
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 0 auto;
+    font-family: 'Caveat', cursive;
+    background-color: #f5f5f5;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.my-panthnavbar {
+    background-color: blueviolet;
+    padding: 10px 20px;
+}
+
+.my-panthnavbar .navbar-brand img {
+    width: 200px;
+    height: auto;
+}
+
+
+.mi-boton {
+    padding: 10px 20px;
+    background-color: black;
+    color: azure;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.mi-boton:hover {
+    background-color: blueviolet;
+}
+
+.mi-boton:active {
+    background-color: black;
+    color: blueviolet;
+}
+
+
+.myTittle {
+    font-family: "Oleo Script", system-ui;
+    font-size: 40px;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+
+#LoginForm {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.Mylabel {
+    font-weight: bold;
+    color: rgb(186, 127, 241);
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+.myInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.myButton {
+    padding: 10px 20px;
+    background-color: black;
+    color: azure;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: auto;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.myButton:hover {
+    background-color: blueviolet;
+}
+
+.myButton:active {
+    background-color: black;
+    color: blueviolet;
+}
+
+@media (max-width: 768px) {
+    .myInput, .myButton {
+        width: 100%;
+    }
+}
